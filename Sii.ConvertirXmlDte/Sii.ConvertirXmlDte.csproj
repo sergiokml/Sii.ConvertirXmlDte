@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7551b3c2-354a-4975-b5bb-593f973f6f3d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Azure.Data.Tables" Version="12.9.1" />
+	  <PackageReference Include="Azure.Storage.Blobs" Version="12.24.0" />
+	  <PackageReference Include="Azure.Storage.Files.Shares" Version="12.20.1" />
+	  <PackageReference Include="Azure.Storage.Queues" Version="12.20.1" />
+	  <PackageReference Include="Microsoft.Extensions.Azure" Version="1.7.6" />
+	  <PackageReference Include="Humanizer.Core.es" Version="2.14.1" />
+	  <PackageReference Include="Pdf417EncoderLibrary" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
