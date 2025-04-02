@@ -3,9 +3,6 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)](https://github.com/sergiokml/Sii.ConvertirXmlDte)
 [![GitHub contributors](https://img.shields.io/github/contributors/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)](https://github.com/sergiokml/Sii.ConvertirXmlDte/graphs/contributors/)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)](https://github.com/sergiokml/Sii.ConvertirXmlDte)
-![GitHub last commit](https://img.shields.io/github/last-commit/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)
-![GitHub Discussions](https://img.shields.io/github/discussions/sergiokml/Sii.ConvertirXmlDte?style=for-the-badge)
 
 # Convertir XML DTE a HTML
 
@@ -48,6 +45,11 @@ curl -X POST http://localhost:5230/api/dte/genera-html/ \
 ```
 
 The response will be HTML output with the DTE information rendered, including a PDF417 barcode and optional resolution metadata.
+
+<p align="center">
+  <img src="https://img001.prntscr.com/file/img001/6V6VhlGVS-6RTvHbIHXOaw.png" width="60%" />
+</p>
+
 
 ### ⚙️ Configuration
 
